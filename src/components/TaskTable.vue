@@ -26,8 +26,8 @@ const props = defineProps({
   @delete-task="(id) => deleteTask(id)"
   @toggle-task="(id) => toggleTask(id)"
   @update-task="(id) => updateTask(id)"
-
-/>    </template>
+/>
+    </template>
   </v-data-table>
 
 </template>
